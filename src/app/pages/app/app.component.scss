@@ -1,0 +1,15 @@
+
+.page {
+  width: 80%;
+  margin-top: 50px;
+  color: #000000;
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: column;
+  align-content: center;
+//   text-align: center;
+    &__title{
+        text-align: center;
+    }
+}
+

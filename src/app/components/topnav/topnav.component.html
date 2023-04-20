@@ -1,0 +1,9 @@
+<div class="topnav">
+    <div class="topnav__logo-box">
+        <app-logo></app-logo>
+    </div>
+    <div class="topnav__links-box">
+        <app-link *ngFor="let link of links"
+        [link]="link"></app-link>
+    </div>
+</div>

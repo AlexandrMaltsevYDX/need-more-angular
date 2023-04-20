@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgb(255, 0, 200);
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  &__title {
+    text-align: center;
+  }
+  &__content {
+    text-align: center;
+  }
+}
